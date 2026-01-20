@@ -41,6 +41,17 @@
 3. kondate-loop側のFigmaでLibraryを有効化
 4. Styles/Variablesとコンポーネントを使ってUIを作成
 
+## 他プロダクトに割り当てる例
+例: 新プロダクト「foo-app」を作る場合
+1. `1212 Design System` のFigmaを最新化（Pull → Apply）
+2. 必要ならコンポーネントを追加してLibraryをPublish
+3. `foo-app` のFigmaファイルを作成
+4. Assets → Libraries で `1212 Design System` をON
+5. 以後は Styles/Variables とコンポーネントを使ってUIを作る
+
+プロダクト固有の色が必要な場合は、
+`foo-theme.tokens.json` のような差分トークンを追加して上書き運用します。
+
 ## よくある詰まり
 - Pullしても何も出ない
   - Token storage location が `1212-core.tokens.json` になっているか確認
@@ -54,4 +65,3 @@
 - UIが増えるほど、トークンで統一するほど楽になる
 - プロダクトごとの差分が必要になったら
   - `kondate-theme.tokens.json` のような「差分トークン」を追加する
-
