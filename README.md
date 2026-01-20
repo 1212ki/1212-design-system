@@ -1,4 +1,4 @@
-# design-builder
+# 1212-design-system
 
 CLI helper to manage design tokens for Tokens Studio (Figma plugin) sync.
 This tool does not talk to Figma directly; it generates token files to import.
@@ -19,6 +19,8 @@ This tool does not talk to Figma directly; it generates token files to import.
 - dist/1212-core.tokens.css (CSS variables for UI Builder)
 
 ## Notes
+- The folder is named `1212-design-system`, but the CLI script is
+  `design-builder.py`.
 - The source file already matches Tokens Studio format, so you can import it
   directly if you do not need CSS output.
 - Keep tokens in the `global` set unless a new theme is introduced.

@@ -1,0 +1,178 @@
+{
+  "global": {
+    "color": {
+      "background": {
+        "value": "#F8F3EE",
+        "type": "color"
+      },
+      "surface": {
+        "value": "#FFFFFF",
+        "type": "color"
+      },
+      "text": {
+        "value": "#2F2A25",
+        "type": "color"
+      },
+      "subtext": {
+        "value": "#6D625A",
+        "type": "color"
+      },
+      "border": {
+        "value": "#E6DCD2",
+        "type": "color"
+      },
+      "primary": {
+        "value": "#E46F4D",
+        "type": "color"
+      },
+      "accent": {
+        "value": "#5E8B7E",
+        "type": "color"
+      }
+    },
+    "typography": {
+      "heading-1": {
+        "value": {
+          "fontFamily": "Zen Maru Gothic",
+          "fontWeight": 600,
+          "fontSize": 24,
+          "lineHeight": 36,
+          "letterSpacing": 0,
+          "paragraphSpacing": 0,
+          "textDecoration": "none",
+          "textCase": "none"
+        },
+        "type": "typography"
+      },
+      "heading-2": {
+        "value": {
+          "fontFamily": "Zen Maru Gothic",
+          "fontWeight": 600,
+          "fontSize": 20,
+          "lineHeight": 30,
+          "letterSpacing": 0,
+          "paragraphSpacing": 0,
+          "textDecoration": "none",
+          "textCase": "none"
+        },
+        "type": "typography"
+      },
+      "body-lg": {
+        "value": {
+          "fontFamily": "M PLUS Rounded 1c",
+          "fontWeight": 500,
+          "fontSize": 18,
+          "lineHeight": 27,
+          "letterSpacing": 0,
+          "paragraphSpacing": 0,
+          "textDecoration": "none",
+          "textCase": "none"
+        },
+        "type": "typography"
+      },
+      "body": {
+        "value": {
+          "fontFamily": "M PLUS Rounded 1c",
+          "fontWeight": 400,
+          "fontSize": 16,
+          "lineHeight": 24,
+          "letterSpacing": 0,
+          "paragraphSpacing": 0,
+          "textDecoration": "none",
+          "textCase": "none"
+        },
+        "type": "typography"
+      },
+      "body-sm": {
+        "value": {
+          "fontFamily": "M PLUS Rounded 1c",
+          "fontWeight": 400,
+          "fontSize": 14,
+          "lineHeight": 21,
+          "letterSpacing": 0,
+          "paragraphSpacing": 0,
+          "textDecoration": "none",
+          "textCase": "none"
+        },
+        "type": "typography"
+      }
+    },
+    "radius": {
+      "card": {
+        "value": 16,
+        "type": "dimension"
+      },
+      "button": {
+        "value": 12,
+        "type": "dimension"
+      },
+      "chip": {
+        "value": 999,
+        "type": "dimension"
+      }
+    },
+    "spacing": {
+      "4": {
+        "value": 4,
+        "type": "dimension"
+      },
+      "8": {
+        "value": 8,
+        "type": "dimension"
+      },
+      "12": {
+        "value": 12,
+        "type": "dimension"
+      },
+      "16": {
+        "value": 16,
+        "type": "dimension"
+      },
+      "20": {
+        "value": 20,
+        "type": "dimension"
+      },
+      "24": {
+        "value": 24,
+        "type": "dimension"
+      },
+      "32": {
+        "value": 32,
+        "type": "dimension"
+      }
+    },
+    "shadow": {
+      "card": {
+        "value": [
+          {
+            "x": 0,
+            "y": 6,
+            "blur": 16,
+            "spread": 0,
+            "color": "rgba(53, 36, 24, 0.08)",
+            "type": "dropShadow"
+          }
+        ],
+        "type": "boxShadow"
+      },
+      "floating": {
+        "value": [
+          {
+            "x": 0,
+            "y": 10,
+            "blur": 24,
+            "spread": 0,
+            "color": "rgba(53, 36, 24, 0.12)",
+            "type": "dropShadow"
+          }
+        ],
+        "type": "boxShadow"
+      }
+    }
+  },
+  "$metadata": {
+    "tokenSetOrder": [
+      "global"
+    ]
+  }
+}
