@@ -1,13 +1,34 @@
 {
   "global": {
     "color": {
-      "background": { "value": "#F8F3EE", "type": "color" },
-      "surface": { "value": "#FFFFFF", "type": "color" },
-      "text": { "value": "#2F2A25", "type": "color" },
-      "subtext": { "value": "#6D625A", "type": "color" },
-      "border": { "value": "#E6DCD2", "type": "color" },
-      "primary": { "value": "#E46F4D", "type": "color" },
-      "accent": { "value": "#5E8B7E", "type": "color" }
+      "background": {
+        "value": "#F8F3EE",
+        "type": "color"
+      },
+      "surface": {
+        "value": "#FFFFFF",
+        "type": "color"
+      },
+      "text": {
+        "value": "#2F2A25",
+        "type": "color"
+      },
+      "subtext": {
+        "value": "#6D625A",
+        "type": "color"
+      },
+      "border": {
+        "value": "#E6DCD2",
+        "type": "color"
+      },
+      "primary": {
+        "value": "#E46F4D",
+        "type": "color"
+      },
+      "accent": {
+        "value": "#5E8B7E",
+        "type": "color"
+      }
     },
     "typography": {
       "heading-1": {
@@ -77,18 +98,48 @@
       }
     },
     "radius": {
-      "card": { "value": 16, "type": "dimension" },
-      "button": { "value": 12, "type": "dimension" },
-      "chip": { "value": 999, "type": "dimension" }
+      "card": {
+        "value": 16,
+        "type": "dimension"
+      },
+      "button": {
+        "value": 12,
+        "type": "dimension"
+      },
+      "chip": {
+        "value": 999,
+        "type": "dimension"
+      }
     },
     "spacing": {
-      "4": { "value": 4, "type": "dimension" },
-      "8": { "value": 8, "type": "dimension" },
-      "12": { "value": 12, "type": "dimension" },
-      "16": { "value": 16, "type": "dimension" },
-      "20": { "value": 20, "type": "dimension" },
-      "24": { "value": 24, "type": "dimension" },
-      "32": { "value": 32, "type": "dimension" }
+      "4": {
+        "value": 4,
+        "type": "dimension"
+      },
+      "8": {
+        "value": 8,
+        "type": "dimension"
+      },
+      "12": {
+        "value": 12,
+        "type": "dimension"
+      },
+      "16": {
+        "value": 16,
+        "type": "dimension"
+      },
+      "20": {
+        "value": 20,
+        "type": "dimension"
+      },
+      "24": {
+        "value": 24,
+        "type": "dimension"
+      },
+      "32": {
+        "value": 32,
+        "type": "dimension"
+      }
     },
     "shadow": {
       "card": {
@@ -120,6 +171,8 @@
     }
   },
   "$metadata": {
-    "tokenSetOrder": ["global"]
+    "tokenSetOrder": [
+      "global"
+    ]
   }
 }
