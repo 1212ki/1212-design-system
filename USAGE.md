@@ -35,6 +35,12 @@
 3. 直接コミット&push（main）
 4. Figmaで `Pull` → `Apply`（Whole document）
 
+## 音楽活動用（music activity）の使い方
+1. `1212-music.tokens.json` を編集
+2. `python3 design-builder.py build --src 1212-music.tokens.json`
+3. Figmaで Tokens Studio を開き、`dist/1212-music.tokens.json` を Import → Apply
+4. Web側は `dist/1212-music.tokens.css` を取り込み、CSS変数 `--color-*` 等を使う
+
 ## プロダクト（例: kondate-loop）での使い方
 1. デザインシステムFigmaでコンポーネントを作る
 2. LibraryをPublish

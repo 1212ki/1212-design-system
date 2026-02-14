@@ -6,13 +6,15 @@ This tool does not talk to Figma directly; it generates token files to import.
 ## Quick start
 1. Edit the token source:
    - 1212-core.tokens.json
+   - 1212-music.tokens.json (music activity)
 2. Build outputs:
    - python3 design-builder.py build
+   - python3 design-builder.py build --src 1212-music.tokens.json
 3. Import into Figma:
    - Open the file in Figma
    - Open Tokens Studio
    - Import JSON (dist/1212-core.tokens.json)
-   - Apply tokens to create Styles/Variables
+    - Apply tokens to create Styles/Variables
 
 ## Outputs
 - dist/1212-core.tokens.json (normalized copy)
