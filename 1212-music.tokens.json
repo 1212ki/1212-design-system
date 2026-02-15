@@ -6,8 +6,8 @@
       "text": { "value": "#1A1A1A", "type": "color" },
       "subtext": { "value": "#666666", "type": "color" },
       "border": { "value": "#E6E6E6", "type": "color" },
-      "primary": { "value": "#BF674D", "type": "color" },
-      "accent": { "value": "#BF674D", "type": "color" },
+      "primary": { "value": "#BF554D", "type": "color" },
+      "accent": { "value": "#BF554D", "type": "color" },
       "mono": {
         "0": { "value": "#000000", "type": "color" },
         "100": { "value": "#FFFFFF", "type": "color" }
@@ -135,4 +135,3 @@
     }
   }
 }
-
